@@ -104,7 +104,7 @@ tur.drawQ()
 # For closing the window
 turtle.done()
 turtle.bye()
-''' 
+'''
   
   
 '''
@@ -112,7 +112,7 @@ turtle.bye()
         QUESTION :02
       Sierpinski Algorithm
 --------------------------------------
-'''
+
 
 #setting up workscreen 
 ws=turtle.Screen() 
@@ -120,10 +120,10 @@ ws=turtle.Screen()
 #defining turtle instance 
 t=turtle.Turtle() 
   
-#turtle pen will be of "GREEN" color 
+#turtle pen will be of "TEAL" color 
 t.color("Teal") 
 
-t.speed(1)
+t.speed(100)
 
 t.right(30)
 t.penup()
@@ -146,7 +146,7 @@ sierpinski(100,3)
 # For closing the window
 turtle.done()
 turtle.bye()
-
+'''
 
 
 

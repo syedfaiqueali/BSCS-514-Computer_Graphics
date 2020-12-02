@@ -46,7 +46,7 @@ l.drawLine()
         QUESTION :02
         (Draw n-gons)
 --------------------------------------
-     
+   
 class Polygon:
     # instance attribute
     def __init__(self, coordinates):
@@ -72,17 +72,18 @@ class Polygon:
   
 
 root = tk.Tk()
-# instantiate the Line class
-p = Polygon(coordinates)
 
 coordinates = [[3,1], [5,1], [5.5,3], [4,5], [2.5,3]]
 points = [(150,10),(200,50),(175,90),(120,90),(95,50)]
 
+# instantiate the Line class
+p = Polygon(coordinates)
+
 p.drawPolygonByMatplotlib()
 p.drawPolygonByTkinter(points, root)
 root.mainloop()
-
-''' 
+'''
+ 
 
 
 
@@ -182,7 +183,7 @@ s.animateSpriteSheet(4,4)
         QUESTION :05
        IMAGE CALCULATOR
 --------------------------------------
-'''
+
 img_1 = cv2.imread('Check1.jpg',0)
 img_2 = cv2.imread('Check2.jpg',0)
 
@@ -199,7 +200,7 @@ cv2.imshow('Subtracted Image', img_4)
 
 cv2.waitKey(10000)
 cv2.destroyAllWindows()
-
+'''
 
 
 
