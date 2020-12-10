@@ -40,13 +40,12 @@ l.drawLine()
 
 
 
-
 '''
 --------------------------------------
         QUESTION :02
         (Draw n-gons)
 --------------------------------------
-   
+  
 class Polygon:
     # instance attribute
     def __init__(self, coordinates):
@@ -82,7 +81,7 @@ p = Polygon(coordinates)
 p.drawPolygonByMatplotlib()
 p.drawPolygonByTkinter(points, root)
 root.mainloop()
-'''
+ '''
  
 
 
@@ -198,7 +197,7 @@ cv2.imshow('Added Image', img_3)
 img_4 = img_3 - img_2
 cv2.imshow('Subtracted Image', img_4)
 
-cv2.waitKey(10000)
+cv2.waitKey(1000000000)
 cv2.destroyAllWindows()
 '''
 
