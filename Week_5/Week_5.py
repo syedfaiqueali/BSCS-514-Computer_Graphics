@@ -15,7 +15,6 @@ import turtle
        Draw your name
 --------------------------------------
 
-
 class Turtle:
     # instance attribute
     def __init__(self, turtle_color, turtle_width, turtle):
@@ -105,7 +104,9 @@ tur.drawQ()
 turtle.done()
 turtle.bye()
 '''
-  
+
+
+
   
 '''
 --------------------------------------
@@ -123,7 +124,7 @@ t=turtle.Turtle()
 #turtle pen will be of "TEAL" color 
 t.color("Teal") 
 
-t.speed(100)
+t.speed(10)
 
 t.right(30)
 t.penup()
@@ -147,6 +148,7 @@ sierpinski(100,3)
 turtle.done()
 turtle.bye()
 '''
+
 
 
 
